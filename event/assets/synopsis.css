@@ -1,0 +1,85 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  
+  footer {
+    background-color: #eee;
+    padding: 15px 0px 0px 10px;
+  }
+  
+
+._img-poster{}
+
+._img-poster img {
+    height: 200px;
+}
+
+._movie_name {
+    padding: 7px 10px 7px 10px;
+}
+
+.movie-synopsis-container{
+    margin: 0;
+    list-style-type: none;
+    padding: 0px 20px;
+    float:left;
+    width: 400px;
+}
+
+._background-white {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+
+._movie-name-text {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+._background-design-white {
+    background: #FFF;
+    padding-top: 10px;
+    float:right;
+    width: 65%;
+}
+
+._weekend-name-container {   
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+}
+
+._director-name{ float:left;}
+._genre{float:left;}
+._cast{float:left;}
+._notes{float:left;}
+._year{float:left;}
+
+@media screen and (min-width: 702px) {
+    ._background-design-white {
+        width: 65%;
+        padding-right: 10px;
+        float: left;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 702px) {
+    ._background-design-white {
+        float: left;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    ._background-design-white {
+      flex-direction: row;
+    }
+  }
